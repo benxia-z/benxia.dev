@@ -3,7 +3,6 @@ import { Container, Title, Text, Icon } from "../components";
 import gratsPreview from "../assets/grats-preview.png";
 import terminalPreview from "../assets/reddit-term-preview.png";
 import githubIcon from "../assets/GitHub-Mark-64px.png";
-import externalIcon from "../assets/icons8-external-link-48.png";
 
 const ProjectContainer = styled.div`
   display: grid;
@@ -81,7 +80,6 @@ const Projects = (): JSX.Element => {
       projectName: "Grats",
       projectPeviewImage: gratsPreview,
       githubUrl: "https://github.com/Zoopsoup/grats",
-      liveSiteUrl: "https://flask-grats.herokuapp.com/",
     },
     {
       projectName: "Reddit Terminal",
@@ -110,14 +108,6 @@ const Projects = (): JSX.Element => {
                   <Icon
                     iconImage={githubIcon}
                     iconUrl={project.githubUrl}
-                    height="50%"
-                    filter="invert(100%)"
-                  ></Icon>
-                )}
-                {project.liveSiteUrl && (
-                  <Icon
-                    iconImage={externalIcon}
-                    iconUrl={project.liveSiteUrl}
                     height="50%"
                     filter="invert(100%)"
                   ></Icon>

@@ -10,7 +10,7 @@ import {
   Subtitle,
   Icon,
 } from "../components";
-import me from "../assets/me.jpg";
+import me2 from "../assets/me_2.jpg";
 import linkedinIcon from "../assets/linkedin-logo.png";
 import instagramIcon from "../assets/instagram-logo.png";
 import githubIcon from "../assets/GitHub-Mark-64px.png";
@@ -36,17 +36,17 @@ const Home = (props: IndexPageProps): JSX.Element => {
 
     {
       socialIcon: githubIcon,
-      socialLink: "https://github.com/Zoopsoup/grats",
+      socialLink: "https://github.com/benxia-z",
     },
     {
       socialIcon: instagramIcon,
-      socialLink: "https://www.instagram.com/benjaminxia/",
+      socialLink: "https://www.instagram.com/soopzoup/",
     },
   ];
   return (
     <>
       <Container>
-        <Photo src={me} />
+        <Photo src={me2} />
         <Title>Ben Xia</Title>
         <Subtitle>Software Developer</Subtitle>
       </Container>
@@ -64,8 +64,8 @@ const Home = (props: IndexPageProps): JSX.Element => {
           </PreviewIcons>
 
           <Text>
-            Passionate about front-end development. Currently a 4th year
-            Computer Science student at the University of Oklahoma.
+            Frontend engineer with 2.5 years of experience in creating
+            accessible and performant web apps.
           </Text>
         </Container>
         <StyledLink to="/about">
@@ -79,14 +79,7 @@ const Home = (props: IndexPageProps): JSX.Element => {
           </Button>
         </StyledLink>
         <a href="mailto:bzijiexia@gmail.com">
-          <Button
-            secondary
-            onClick={() => {
-              console.log("test");
-            }}
-          >
-            Contact me
-          </Button>
+          <Button secondary>Contact me</Button>
         </a>
       </Container>
     </>

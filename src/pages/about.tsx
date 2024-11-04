@@ -14,12 +14,12 @@ const About = (): JSX.Element => {
           <Text>My resume and experiences can be found below:</Text>
         </Container>
         {isMobile ? (
-          <a href="https://drive.google.com/file/d/1CMgPY9kC1H2_LddIofWJi7fP2466zTrm/view">
+          <a href="https://drive.google.com/file/d/18rm82xOzjBM360IrCrBNYrdpjhldtMPr/view">
             <Button>View Resume</Button>
           </a>
         ) : (
           <iframe
-            src="https://drive.google.com/file/d/1CMgPY9kC1H2_LddIofWJi7fP2466zTrm/preview"
+            src="https://drive.google.com/file/d/18rm82xOzjBM360IrCrBNYrdpjhldtMPr/preview"
             width="640"
             height="825"
             allow="autoplay"
