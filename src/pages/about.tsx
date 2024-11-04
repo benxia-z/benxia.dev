@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { Button, Container, Title, Text } from "../components";
 import { useMediaQuery } from "react-responsive";
 
